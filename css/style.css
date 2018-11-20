@@ -267,6 +267,14 @@ footer i {
     padding: 20px;
 }
 
+.westCities {
+    transition: 1s all linear;
+}
+
+.westCities img {
+    box-shadow: 5px 5px 5px black;
+}
+
 .abt-city {
     width: 100%;
 }
@@ -349,4 +357,15 @@ h2 {
 
 .slideshow img {
     max-width: 80%;
+}
+
+#back,
+#next {
+    font-size: 3rem;
+}
+
+.contact-background {
+    background: url("/images/Summer-vacation-with-family.jpg");
+    width: 100vw;
+    height: 100vh;
 }
