@@ -365,7 +365,76 @@ h2 {
 }
 
 .contact-background {
-    background: url("/images/Summer-vacation-with-family.jpg");
+    background: url("/images/Summer-vacation-with-family.jpg") fixed;
     width: 100vw;
     height: 100vh;
+}
+
+#logIn {
+    /* display: none; */
+    width: 60vw;
+    border: 1px solid grey;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+#logIn .social-media {
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 10px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    /* background: rgba(0, 0, 0, 0.6); */
+    overflow: hidden;
+    z-index: 1000;
+    top: 30px;
+}
+
+#close {
+    position: absolute;
+    color: black;
+    top: 5px;
+    right: 5px;
+    font-size: 2rem;
+}
+
+.activities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.activities-container h1 {
+    font-size: 2rem;
+    line-height: 40px;
+    padding: 30px;
+}
+
+.activities-container p {
+    font-size: 1.5rem;
+    line-height: 40px;
+    padding: 20px 200px;
+}
+
+.sign-in {
+    padding: 20px;
+    line-height: 40px;
+}
+
+#logIn i {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
 }
