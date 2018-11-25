@@ -1,3 +1,5 @@
+// The below images are from source: www.outdoorphotographer.com
+
 var homePics = [
     "../images/Josh-Miller-Tahoe-3-824x579.jpg",
     "../images/Josh-Miller-Tahoe-10-824x526.jpg",

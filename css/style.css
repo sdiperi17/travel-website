@@ -556,10 +556,8 @@ h2 {
     transition: 0.3s all;
 }
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.2);
+.hvr-grow:hover {
+    transform: scale(1.2, 1.2);
 }
 
 .sign-up {
@@ -575,32 +573,18 @@ h2 {
 
 .sign-up div {
     font-size: 1.2rem;
-    /* padding: 10px; */
     margin: 10px;
 }
 
-.nav:hover {
-    background-size: 100% 5px, auto;
-}
-
 li:hover {
     background: black;
-    color: white;
-}
-
-li:hover {
-    background: black;
-    color: white;
+    transform: scale(1.1, 1.1);
+    margin-bottom: 5px;
 }
 
 .active {
     background: rgba(187, 187, 187, 0.4);
     font-weight: bold;
-}
-
-li:hover {
-    transform: scale(1.1);
-    margin-bottom: 5px;
 }
 
 li {
@@ -610,7 +594,7 @@ li {
 i:hover {
     background: white;
     color: black;
-    transform: scale(1.1);
+    transform: scale(1.1, 1.1);
     margin-bottom: 5px;
 }
 

@@ -177,6 +177,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
         let { name, image, description } = selectedState[slideIndex];
         slideContainer.innerHTML = name + image + description;
+        console.log(image);
     }
 
     showCities(slideIndex);
