@@ -15,17 +15,17 @@
             href="https://fonts.googleapis.com/css?family=Pacifico"
             rel="stylesheet"
         />
-
         <link rel="stylesheet" href="../css/style.css" />
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="../images/logo6.png" width="100" alt="" />
+            <div class="logo hvr-grow">
+                <a href="/">
+                    <img src="../images/logo6.png" width="100" alt=""
+                /></a>
             </div>
             <nav>
                 <ul class="nav-container">
-                    <li><a href="../index.html">Home</a></li>
                     <li><a href="destination.html">Destinations</a></li>
                     <li><a href="thingstodo.html">Things To Do</a></li>
                     <li><a href="tips.html">Travel Tips</a></li>
@@ -55,6 +55,8 @@
                         bowls appear at every turn
                     </p>
                 </div>
+            </div>
+            <div class="flex">
                 <div class="child">
                     <img src="../images/alcartaz island.gif" alt="" />
                     <h1>Alcartaz Island</h1>
@@ -63,19 +65,17 @@
                         with audio tour, accessible by ferry.
                     </p>
                 </div>
+                <div class="child">
+                    <img src="../images/lombard-st.gif" alt="" />
+                    <h1>Lombard Street</h1>
+                    <p>
+                        Lombard Street is an east–west street in San Francisco,
+                        California that is famous for a steep, one-block section
+                        with eight hairpin turns. Stretching from The Presidio
+                        east to The Embarcadero
+                    </p>
+                </div>
             </div>
-            <div class="child">
-                <img src="../images/lombard-st.gif" alt="" />
-                <h1>Lombard Street</h1>
-                <p>
-                    Lombard Street is an east–west street in San Francisco,
-                    California that is famous for a steep, one-block section
-                    with eight hairpin turns. Stretching from The Presidio east
-                    to The Embarcadero
-                </p>
-            </div>
-            <div></div>
-            <div></div>
         </div>
         <footer>
             <i class="fab fa-facebook-f" icon-large></i>
@@ -99,6 +99,21 @@
                     <h3>
                         Organize your research & unlock tools like bookmarking
                     </h3>
+
+                    <form action="" class="sign-up">
+                        <div>
+                            <label for="">Username</label>
+                            <input type="text" name="userName" />
+                        </div>
+
+                        <div>
+                            <label for="">Password</label>
+                            <input type="text" name="password" />
+                        </div>
+
+                        <button id="signIn">Login</button>
+                    </form>
+
                     <div class="social-media">
                         <p>
                             <i class="fab fa-facebook-f"></i> Continue with

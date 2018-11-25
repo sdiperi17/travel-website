@@ -196,6 +196,7 @@ header {
 
 .parallax-box {
     width: 100%;
+    background-color: #f4f4f4;
 }
 
 .transparent {
@@ -216,12 +217,16 @@ header {
     line-height: 40px;
     font-size: 1.4rem;
     font-family: Helveticas, Arial, sans-serif;
-    margin: 50px 0px;
+    padding-top: 80px;
+}
+
+.grey-background {
+    background: #f4f4f4;
 }
 
 .home-page-text2 {
     line-height: 40px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: Helvetica, Arial, sans-serif;
     margin: 50px 0px;
 }
@@ -251,26 +256,34 @@ footer i {
     padding-top: 150px;
     padding-bottom: 50px;
 }
-.west {
+.city {
     text-align: center;
 }
 
-.west-child img {
-    width: 100%;
-}
-
-.west h3 {
+.city h3 {
     font-size: 1.5rem;
     line-height: 40px;
     padding: 20px;
 }
 
-.westCities {
+.cities {
     transition: 1s all linear;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 80px;
 }
 
-.westCities img {
+.cities img {
     box-shadow: 5px 5px 5px black;
+    margin-bottom: 40px;
+}
+
+.cities p {
+    line-height: 50px;
+}
+
+.cities h2 {
+    font-size: 2rem;
 }
 
 .abt-city {
@@ -316,7 +329,7 @@ section {
 .tips p,
 h2 {
     line-height: 50px;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .tip1 {
@@ -366,6 +379,12 @@ h2 {
     background: url("/images/Summer-vacation-with-family.jpg") fixed;
     width: 100vw;
     height: 100vh;
+}
+
+.contact-background footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
 }
 
 #logIn {
@@ -441,7 +460,7 @@ h2 {
 .contact-container {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
     width: 50%;
     background: rgba(0, 0, 0, 0.6);
@@ -456,6 +475,10 @@ h2 {
     max-width: 80%;
     margin: 0 auto;
     padding: 30px 0px;
+}
+
+.contact-form label {
+    padding: 10px;
 }
 
 .row {
@@ -502,6 +525,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .sightseings-container {
@@ -509,15 +533,19 @@ h2 {
     box-sizing: content-box;
 }
 .child {
-    border: 1px solid #808080;
     text-align: center;
-    margin: 10px;
+    width: 50%;
+    margin: 40px;
 }
 
 .child img {
     width: 25vw;
-    margin: 20px;
-    height: 60%;
+    height: 50%;
+}
+
+.child p {
+    line-height: 30px;
+    font-size: 1.5rem;
 }
 
 .flex {
@@ -532,4 +560,78 @@ h2 {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.2);
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-around;
+
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 10px;
+}
+
+.sign-up div {
+    font-size: 1.2rem;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.nav:hover {
+    background-size: 100% 5px, auto;
+}
+
+li:hover {
+    background: black;
+    color: white;
+}
+
+li:hover {
+    background: black;
+    color: white;
+}
+
+.active {
+    background: rgba(187, 187, 187, 0.4);
+    font-weight: bold;
+}
+
+li:hover {
+    transform: scale(1.1);
+    margin-bottom: 5px;
+}
+
+li {
+    transition: all 0.3s linear;
+}
+
+i:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+    margin-bottom: 5px;
+}
+
+i {
+    transition: all 0.2s linear;
+}
+
+#signIn {
+    width: 100px;
+    border-radius: 10px;
+    background: #f4f4f4;
+}
+
+.things-to-do-background {
+    background-image: url("../images/skydiving-in-usa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 40%;
+    background-position: center;
+    transition: 1s all linear;
 }

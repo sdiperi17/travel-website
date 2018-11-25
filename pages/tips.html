@@ -15,15 +15,16 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src="../images/logo6.png" width="100" alt="" />
+            <div class="logo hvr-grow">
+                <a href="/">
+                    <img src="../images/logo6.png" width="100" alt=""
+                /></a>
             </div>
             <nav>
                 <ul class="nav-container">
-                    <li><a href="../index.html">Home</a></li>
                     <li><a href="destination.html">Destinations</a></li>
                     <li><a href="thingstodo.html">Things To Do</a></li>
-                    <li><a href="tips.html">Travel Tips</a></li>
+                    <li class="active"><a href="tips.html">Travel Tips</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                     <li class="loginLink">Log In</li>
                 </ul>
@@ -136,26 +137,50 @@
                     <h3>
                         Organize your research & unlock tools like bookmarking
                     </h3>
+
+                    <form action="" class="sign-up">
+                        <div>
+                            <label for="">Username</label>
+                            <input type="text" name="userName" />
+                        </div>
+
+                        <div>
+                            <label for="">Password</label>
+                            <input type="text" name="password" />
+                        </div>
+
+                        <button id="signIn">Login</button>
+                    </form>
+
                     <div class="social-media">
                         <p>
-                            <i class="fab fa-facebook-f"></i>Continue with
+                            <i class="fab fa-facebook-f"></i> Continue with
                             Facebook
                         </p>
                     </div>
                     <div class="social-media">
                         <p>
-                            <i class="fab fa-twitter"></i>Continue with Twitter
+                            <i class="fab fa-twitter"></i> Continue with Twitter
                         </p>
                     </div>
                     <div class="social-media">
-                        <p>Continue with Google<i class="fab fa-google"></i></p>
+                        <p>
+                            <i class="fab fa-google"></i> Continue with Google
+                        </p>
                     </div>
-                    <p>SIGN IN OR SIGN UP WITH EMAIL ></p>
-
-                    <p>Having trouble signing in? <a>See account help</a></p>
+                    <div class="sign-in">
+                        <p>
+                            Having trouble signing in? <a>See account help</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
         <script src="../js/destination.js"></script>
         <script src="../js/login.js"></script>
     </body>

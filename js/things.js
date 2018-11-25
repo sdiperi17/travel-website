@@ -37,3 +37,27 @@ var activities = [
 activities.forEach(({ name, video, cities, price }) => {
     activitiesContainer.innerHTML += name + video + cities + price;
 });
+
+var thingsPics = [
+    "../images/scuba-diving.jpg",
+    "../images/surfing1.jpeg",
+    "../images/skuba-diving2.jpg",
+    "../images/snowboarding2.webp",
+    "../images/skydive3.jpg",
+    "../images/skydiving-in-usa.jpg",
+    "../images/snowboarding2.webp"
+];
+
+var thingsBackground = document.querySelector(".things-to-do-background");
+
+var count = 0;
+
+setInterval(function() {
+    if (count < thingsPics.length) {
+        thingsBackground.style.backgroundImage = `url(${thingsPics[count]})`;
+        count++;
+        console.log(count);
+    } else {
+        count = 0;
+    }
+}, 5000);
