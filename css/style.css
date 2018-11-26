@@ -185,6 +185,7 @@ header {
     background: rgba(0, 0, 0, 0.6);
     width: 100vw;
     color: white;
+    z-index: 1000;
 }
 
 .logo {
@@ -244,9 +245,10 @@ footer i {
 }
 
 .home-slideshow img {
+    transform: scale(1.2);
     display: block;
     margin: 0 auto;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .us-map img {
@@ -290,6 +292,16 @@ footer i {
     width: 100%;
 }
 
+.abt-city img {
+    width: 100%;
+    height: 300px;
+    transition: 0.3s all linear;
+}
+
+.abt-city img:hover {
+    transform: scale(1.02, 1.02);
+}
+
 /* tips page */
 .tips-background {
     background: url(../images/Travel-USA-flag.jpg) fixed;
@@ -316,6 +328,11 @@ section {
 
 .tip-image1 img {
     width: 100%;
+    transition: 0.3s all linear;
+}
+
+.tip-image1 img:hover {
+    transform: scale(1.01);
 }
 
 .tips {
@@ -377,6 +394,9 @@ h2 {
 
 .contact-background {
     background: url("/images/Summer-vacation-with-family.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
 }
@@ -618,4 +638,34 @@ i {
     padding-bottom: 40%;
     background-position: center;
     transition: 1s all linear;
+}
+
+iframe {
+    width: 70%;
+    height: 500px;
+    transition: 0.3s all linear;
+}
+
+iframe:hover {
+    width: 70%;
+    transform: scale(1.01);
+}
+
+.animation {
+    animation: fadeImg 3s 1s 1 normal linear;
+}
+
+@keyframes fadeImg {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1.2);
+    }
 }

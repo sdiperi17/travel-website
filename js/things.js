@@ -28,7 +28,7 @@ var activities = [
         name: "<h1>Hiking</h1>",
         video: `<iframe width="560" height="315" src="https://www.youtube.com/embed/wdA4LZEAge0?start=77" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         cities:
-            "<p>Cities Best For Hiking: SALT LAKE CITY - UT, PHOENIX - AZ, PORTLAND - OR, ASHEVILLE - NC, SEATTLE - WA, FORT COLLINS - CO, SOUTH LAKE TAHOE - CA, FAIRBANKS - AK, ALBUQUERQUE - NM, FLAGSTAFF - AZ</p>",
+            "<p>Cities Best For Hiking: Salt Lake City - UT, Phoenix - AZ, Portland - OR, Asheville - NC, Seattle - WA, Fort Collins - CO, South Lake Tahoe - CA, Fairbanks - AK, Albuquerque - NM, Flagstaff - AZ</p>",
         price:
             "<p>Price Range: Tandem Skydiving 8,000-18,000 ft: $99 to $375</p>"
     }

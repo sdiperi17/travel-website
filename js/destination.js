@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         {
             name: `<h2>Las Vegas</h2>`,
             image: `<div class="abt-city">
-    <img src="../images/seattle.jpg" alt="" />
-</div>`,
+            <img src="../images/las-vegas.jpg" alt="Las Vegas" />
+        </div>`,
             description: `<p>
     Las Vegas, in Nevada’s Mojave Desert, is a resort
     city famed for its vibrant nightlife, centered

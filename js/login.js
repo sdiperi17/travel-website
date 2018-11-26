@@ -28,10 +28,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     });
 });
-
-// function logIn() {
-//     var loginModal = document.querySelector(".login-modal");
-//     var modalBox = document.querySelector(".container-login");
-//     loginModal.style.display = "block";
-//     console.log(loginModal, modalBox);
-// }
