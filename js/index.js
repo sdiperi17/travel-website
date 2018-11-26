@@ -22,3 +22,14 @@ setInterval(function() {
         count = 0;
     }
 }, 5000);
+
+window.addEventListener("scroll", () => {
+    const scrolled = window.scrollY;
+    const container = document.querySelector(".grey-background");
+    if (Math.floor(scrolled) > 600) {
+        console.log("running");
+        container.style.opacity = 1;
+    } else {
+        container.style.opacity = 0;
+    }
+});
